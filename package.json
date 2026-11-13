@@ -1,0 +1,33 @@
+{
+  "name": "dsh-die-casting",
+  "version": "0.1.0",
+  "description": "压铸件 DFM 与缺陷排查：壁厚/脱模角/锁模力，气孔冷隔飞边对策",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "die casting",
+    "压铸",
+    "dfm",
+    "aluminum"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-die-casting.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  }
+}
